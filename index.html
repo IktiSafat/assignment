@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Developer Portfolio</title>
+    <link rel="shortcut icon" href="images/ikti.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/portfolio.css" />
+    <script
+      src="https://kit.fontawesome.com/5d0aa24566.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <h3 class="nav-title">Ikt<span class="text-primary">!</span></h3>
+      </nav>
+      <div class="banner">
+        <div class="banner-content">
+          <h3 class="banner-greeting">Hi, I am</h3>
+          <h1 class="banner-title">Ikti Safat</h1>
+          <p class="banner-description">
+            CSE major with a passion for web development. Proficient in HTML,
+            CSS and Python. Dedicated to creating user-friendly websites with
+            innovative design and functionality.
+          </p>
+        </div>
+        <img class="profile-pic" src="images/ikti.png" alt="Ikti's Picture" />
+      </div>
+    </header>
+    <main>
+      <section class="about">
+        <h3 class="section-title">Info</h3>
+        <p class="section-description">
+          I am an aspiring CSE major with a deep passion for web development and
+          coding. Combining my technical skills with my artistic eye, I strive
+          to create visually captivating websites that tell compelling stories.
+        </p>
+        <div class="about-info-container">
+          <div class="about-info">
+            <h4 class="info-title">Name:</h4>
+            <p class="info-description">Ikti Safat</p>
+          </div>
+          <div class="about-info">
+            <h4 class="info-title">Email:</h4>
+            <p class="info-description">safatiktianjum@gmail.com</p>
+          </div>
+          <div class="about-info">
+            <h4 class="info-title">Date of Birth:</h4>
+            <p class="info-description">8 February 2002</p>
+          </div>
+          <div class="about-info">
+            <h4 class="info-title">From:</h4>
+            <p class="info-description">Dhaka, Bangladesh</p>
+          </div>
+        </div>
+      </section>
+
+      <!--what I do section start-->
+      <section>
+        <h3 class="section-title">What I Do</h3>
+        <p id="what-i-do-description" class="section-description">
+          During my university journey as a CSE major, I have actively pursued
+          my passion for web development. I have gained hands-on experience in
+          designing and developing visually stunning websites
+        </p>
+      </section>
+      <!--Resume Section-->
+      <section>
+        <h3 class="section-title"><a href="info.html">About me</a></h3>
+
+        <div class="download-cv">
+          <button class="btn-primary">
+            <i class="fa-solid fa-download"></i> Download CV
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        &copy; Ikti. Date and Time:
+        <script>
+          document.write(new Date().toLocaleString());
+        </script>
+      </p>
+      <p>Location: Dhaka, Bangladesh</p>
+    </footer>
+  </body>
+</html>

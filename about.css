@@ -1,0 +1,35 @@
+h1 {
+  color: rgb(75, 75, 198);
+  text-align: center;
+
+  font-style: italic;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+p {
+  font-family: sans-serif;
+}
+#slogan {
+  color: rgb(188, 111, 16);
+  text-align: center;
+}
+.contact {
+  text-align: center;
+  border: 5px solid #474f51;
+  background-color: rgb(45, 130, 112);
+}
+.inf {
+  text-align: center;
+  border: 5px solid #474f51;
+  background-color: rgb(45, 130, 112);
+}
+.sec {
+  font-weight: bold;
+}
